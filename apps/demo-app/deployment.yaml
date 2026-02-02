@@ -15,6 +15,7 @@ spec:
         app: demo-app
     spec:
       containers:
+      hostNetwork: true
       - name: nginx
         image: nginx:stable-alpine
         ports:
